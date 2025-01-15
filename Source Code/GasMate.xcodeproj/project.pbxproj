@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17B95C42C15AD4000030D45 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B95C32C15AD4000030D45 /* FavoritesView.swift */; };
+		C17B95C62C15AEE400030D45 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B95C52C15AEE400030D45 /* SummaryView.swift */; };
+		C18A258D2C079F5300EE8D14 /* GasMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A258C2C079F5300EE8D14 /* GasMateApp.swift */; };
+		C18A258F2C079F5300EE8D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A258E2C079F5300EE8D14 /* ContentView.swift */; };
+		C18A25912C079F5400EE8D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18A25902C079F5400EE8D14 /* Assets.xcassets */; };
+		C18A25952C079F5400EE8D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18A25942C079F5400EE8D14 /* Preview Assets.xcassets */; };
+		C18A259F2C079F5400EE8D14 /* GasMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A259E2C079F5400EE8D14 /* GasMateTests.swift */; };
+		C18A25A92C079F5400EE8D14 /* GasMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A25A82C079F5400EE8D14 /* GasMateUITests.swift */; };
+		C18A25AB2C079F5400EE8D14 /* GasMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A25AA2C079F5400EE8D14 /* GasMateUITestsLaunchTests.swift */; };
+		C1B0D4942C124EC300018697 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D4932C124EC300018697 /* HomeView.swift */; };
+		C1B0D4962C124EDE00018697 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D4952C124EDE00018697 /* ListView.swift */; };
+		C1B0D4982C124F0200018697 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D4972C124F0200018697 /* DetailView.swift */; };
+		C1B0D49E2C124F5F00018697 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D49D2C124F5F00018697 /* ViewModels.swift */; };
+		C1B0D4A02C13BB3D00018697 /* GasStationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D49F2C13BB3D00018697 /* GasStationService.swift */; };
+		C1B0D4A22C13C09300018697 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0D4A12C13C09300018697 /* GasStation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18A259B2C079F5400EE8D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18A25812C079F5300EE8D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18A25882C079F5300EE8D14;
+			remoteInfo = GasMate;
+		};
+		C18A25A52C079F5400EE8D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18A25812C079F5300EE8D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18A25882C079F5300EE8D14;
+			remoteInfo = GasMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17B95C32C15AD4000030D45 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		C17B95C52C15AEE400030D45 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		C18A25892C079F5300EE8D14 /* GasMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18A258C2C079F5300EE8D14 /* GasMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasMateApp.swift; sourceTree = "<group>"; };
+		C18A258E2C079F5300EE8D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C18A25902C079F5400EE8D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18A25922C079F5400EE8D14 /* GasMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GasMate.entitlements; sourceTree = "<group>"; };
+		C18A25942C079F5400EE8D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C18A259A2C079F5400EE8D14 /* GasMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18A259E2C079F5400EE8D14 /* GasMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasMateTests.swift; sourceTree = "<group>"; };
+		C18A25A42C079F5400EE8D14 /* GasMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18A25A82C079F5400EE8D14 /* GasMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasMateUITests.swift; sourceTree = "<group>"; };
+		C18A25AA2C079F5400EE8D14 /* GasMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1B0D4932C124EC300018697 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1B0D4952C124EDE00018697 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C1B0D4972C124F0200018697 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C1B0D49D2C124F5F00018697 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		C1B0D49F2C13BB3D00018697 /* GasStationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationService.swift; sourceTree = "<group>"; };
+		C1B0D4A12C13C09300018697 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18A25862C079F5300EE8D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25972C079F5400EE8D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25A12C079F5400EE8D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18A25802C079F5300EE8D14 = {
+			isa = PBXGroup;
+			children = (
+				C17B95C52C15AEE400030D45 /* SummaryView.swift */,
+				C17B95C32C15AD4000030D45 /* FavoritesView.swift */,
+				C1B0D4932C124EC300018697 /* HomeView.swift */,
+				C18A258E2C079F5300EE8D14 /* ContentView.swift */,
+				C1B0D49F2C13BB3D00018697 /* GasStationService.swift */,
+				C1B0D4A12C13C09300018697 /* GasStation.swift */,
+				C1B0D4952C124EDE00018697 /* ListView.swift */,
+				C1B0D4972C124F0200018697 /* DetailView.swift */,
+				C1B0D49D2C124F5F00018697 /* ViewModels.swift */,
+				C18A258B2C079F5300EE8D14 /* GasMate */,
+				C18A259D2C079F5400EE8D14 /* GasMateTests */,
+				C18A25A72C079F5400EE8D14 /* GasMateUITests */,
+				C18A258A2C079F5300EE8D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18A258A2C079F5300EE8D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18A25892C079F5300EE8D14 /* GasMate.app */,
+				C18A259A2C079F5400EE8D14 /* GasMateTests.xctest */,
+				C18A25A42C079F5400EE8D14 /* GasMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18A258B2C079F5300EE8D14 /* GasMate */ = {
+			isa = PBXGroup;
+			children = (
+				C18A258C2C079F5300EE8D14 /* GasMateApp.swift */,
+				C18A25902C079F5400EE8D14 /* Assets.xcassets */,
+				C18A25922C079F5400EE8D14 /* GasMate.entitlements */,
+				C18A25932C079F5400EE8D14 /* Preview Content */,
+			);
+			path = GasMate;
+			sourceTree = "<group>";
+		};
+		C18A25932C079F5400EE8D14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C18A25942C079F5400EE8D14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C18A259D2C079F5400EE8D14 /* GasMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C18A259E2C079F5400EE8D14 /* GasMateTests.swift */,
+			);
+			path = GasMateTests;
+			sourceTree = "<group>";
+		};
+		C18A25A72C079F5400EE8D14 /* GasMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18A25A82C079F5400EE8D14 /* GasMateUITests.swift */,
+				C18A25AA2C079F5400EE8D14 /* GasMateUITestsLaunchTests.swift */,
+			);
+			path = GasMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18A25882C079F5300EE8D14 /* GasMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18A25AE2C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMate" */;
+			buildPhases = (
+				C18A25852C079F5300EE8D14 /* Sources */,
+				C18A25862C079F5300EE8D14 /* Frameworks */,
+				C18A25872C079F5300EE8D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasMate;
+			productName = GasMate;
+			productReference = C18A25892C079F5300EE8D14 /* GasMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18A25992C079F5400EE8D14 /* GasMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18A25B12C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMateTests" */;
+			buildPhases = (
+				C18A25962C079F5400EE8D14 /* Sources */,
+				C18A25972C079F5400EE8D14 /* Frameworks */,
+				C18A25982C079F5400EE8D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18A259C2C079F5400EE8D14 /* PBXTargetDependency */,
+			);
+			name = GasMateTests;
+			productName = GasMateTests;
+			productReference = C18A259A2C079F5400EE8D14 /* GasMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C18A25A32C079F5400EE8D14 /* GasMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18A25B42C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMateUITests" */;
+			buildPhases = (
+				C18A25A02C079F5400EE8D14 /* Sources */,
+				C18A25A12C079F5400EE8D14 /* Frameworks */,
+				C18A25A22C079F5400EE8D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18A25A62C079F5400EE8D14 /* PBXTargetDependency */,
+			);
+			name = GasMateUITests;
+			productName = GasMateUITests;
+			productReference = C18A25A42C079F5400EE8D14 /* GasMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18A25812C079F5300EE8D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C18A25882C079F5300EE8D14 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C18A25992C079F5400EE8D14 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C18A25882C079F5300EE8D14;
+					};
+					C18A25A32C079F5400EE8D14 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C18A25882C079F5300EE8D14;
+					};
+				};
+			};
+			buildConfigurationList = C18A25842C079F5300EE8D14 /* Build configuration list for PBXProject "GasMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18A25802C079F5300EE8D14;
+			productRefGroup = C18A258A2C079F5300EE8D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18A25882C079F5300EE8D14 /* GasMate */,
+				C18A25992C079F5400EE8D14 /* GasMateTests */,
+				C18A25A32C079F5400EE8D14 /* GasMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18A25872C079F5300EE8D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18A25952C079F5400EE8D14 /* Preview Assets.xcassets in Resources */,
+				C18A25912C079F5400EE8D14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25982C079F5400EE8D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25A22C079F5400EE8D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18A25852C079F5300EE8D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17B95C42C15AD4000030D45 /* FavoritesView.swift in Sources */,
+				C1B0D4962C124EDE00018697 /* ListView.swift in Sources */,
+				C1B0D4A02C13BB3D00018697 /* GasStationService.swift in Sources */,
+				C1B0D4942C124EC300018697 /* HomeView.swift in Sources */,
+				C1B0D49E2C124F5F00018697 /* ViewModels.swift in Sources */,
+				C18A258F2C079F5300EE8D14 /* ContentView.swift in Sources */,
+				C1B0D4982C124F0200018697 /* DetailView.swift in Sources */,
+				C18A258D2C079F5300EE8D14 /* GasMateApp.swift in Sources */,
+				C1B0D4A22C13C09300018697 /* GasStation.swift in Sources */,
+				C17B95C62C15AEE400030D45 /* SummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25962C079F5400EE8D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18A259F2C079F5400EE8D14 /* GasMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18A25A02C079F5400EE8D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18A25A92C079F5400EE8D14 /* GasMateUITests.swift in Sources */,
+				C18A25AB2C079F5400EE8D14 /* GasMateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C18A259C2C079F5400EE8D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18A25882C079F5300EE8D14 /* GasMate */;
+			targetProxy = C18A259B2C079F5400EE8D14 /* PBXContainerItemProxy */;
+		};
+		C18A25A62C079F5400EE8D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18A25882C079F5300EE8D14 /* GasMate */;
+			targetProxy = C18A25A52C079F5400EE8D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C18A25AC2C079F5400EE8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C18A25AD2C079F5400EE8D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C18A25AF2C079F5400EE8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GasMate/GasMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasMate/Preview Content\"";
+				DEVELOPMENT_TEAM = AX632888XZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is needed to show nearby gas stations.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is needed to show nearby gas stations even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to show nearby gas stations.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18A25B02C079F5400EE8D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GasMate/GasMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasMate/Preview Content\"";
+				DEVELOPMENT_TEAM = AX632888XZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is needed to show nearby gas stations.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is needed to show nearby gas stations even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to show nearby gas stations.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C18A25B22C079F5400EE8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX632888XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasMate";
+			};
+			name = Debug;
+		};
+		C18A25B32C079F5400EE8D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX632888XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasMate";
+			};
+			name = Release;
+		};
+		C18A25B52C079F5400EE8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX632888XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasMate;
+			};
+			name = Debug;
+		};
+		C18A25B62C079F5400EE8D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX632888XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjaswal.GasMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18A25842C079F5300EE8D14 /* Build configuration list for PBXProject "GasMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18A25AC2C079F5400EE8D14 /* Debug */,
+				C18A25AD2C079F5400EE8D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18A25AE2C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18A25AF2C079F5400EE8D14 /* Debug */,
+				C18A25B02C079F5400EE8D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18A25B12C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18A25B22C079F5400EE8D14 /* Debug */,
+				C18A25B32C079F5400EE8D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18A25B42C079F5400EE8D14 /* Build configuration list for PBXNativeTarget "GasMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18A25B52C079F5400EE8D14 /* Debug */,
+				C18A25B62C079F5400EE8D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18A25812C079F5300EE8D14 /* Project object */;
+}
